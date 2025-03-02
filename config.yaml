@@ -32,5 +32,5 @@ keywords:
         filters: ["Dense Prediction", "Depth Estimation", "Optical Flow Estimation", 
                 "Super Resolution", "Dense Correspondence", "Surface Normal Estimation"]
     "Efficient Models":
-        filters: ["Lightweight Network", "Efficient Network", "Model Compression", "Quantization", 
+        filters: ["Lightweight Network", "Efficient Network", "Quantization", 
               "Knowledge Distillation", "Low-Resolution Segmentation", "Real-time Segmentation"]
