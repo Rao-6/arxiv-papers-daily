@@ -1,6 +1,6 @@
 # TODO: add papers by configuration file
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
-user_name: "Jasper0420"
+user_name: "Rao-6"
 repo_name: "arxiv-papers-daily"
 show_authors: True
 show_links: True
@@ -22,20 +22,15 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords to search
 keywords:
-    "Tracking": 
-        filters: ["UAV tracking","SOT", "Visual Object Tracking","vision language tracking","RGB-E Tracking","RGB-T Tracking"
-        ,"RGB-D Tracking"]
-    "HDR":
-        filters: ["HDR","HDR Video", "HDR Images", "Real-Time HDR","High Dynamic Range"]
-    "Low-Level":
-        filters: ["Low-light Image Enhancement","Image Fusion",
-                  "Image Restoration"," Image Enhancement",
-                  "Multi-Granularity","image retrieval","context-aware"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "MutilModal":
-        filters: ["MutilModal", "MLLM", "Multimodal Alignment", 
-                  "Vision-and-Language", "Multimodal Fusion", "Crossmodal Retrieval","Mutil-view", "cross-view"]
-    "Prompt":
-        filters: ["Multi-Granularity", "LORA", "Contextual", "Prompt"]
+    "Image Segmentation":
+        filters: ["Image Segmentation", "Segmentation Network", "Instance Segmentation", 
+                "Panoptic Segmentation", "Segmentation Transformer", "Medical Image Segmentation"]
+    "Semantic Segmentation":
+        filters: ["Semantic Segmentation", "Scene Parsing", "Pixel-wise Classification", "Mask Prediction", 
+              "Semantic Parsing", "DeepLab", "SegFormer"]
+    "Dense Prediction":
+        filters: ["Dense Prediction", "Depth Estimation", "Optical Flow Estimation", 
+                "Super Resolution", "Dense Correspondence", "Surface Normal Estimation"]
+    "Efficient Models":
+        filters: ["Lightweight Network", "Efficient Network", "Model Compression", "Quantization", 
+              "Knowledge Distillation", "Low-Resolution Segmentation", "Real-time Segmentation"]
